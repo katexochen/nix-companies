@@ -1,6 +1,10 @@
 # Nix Companies
 
 A curated list of companies using Nix / NixOS in production.
+It is divided into two sections:
+One for companies that only use Nix,
+and another for companies that are actively extending it
+and/or providing consulting services for it.
 
 ---
 
@@ -15,7 +19,7 @@ Similar lists for other purely functional languages:
 [purescript-companies]: https://github.com/ajnsit/purescript-companies
 
 
-## Companies
+## Users
 
 Name (Link to Website)| HQ Location    | Other Languages
 ----------------------|----------------|-----------------------------------
@@ -24,12 +28,10 @@ Name (Link to Website)| HQ Location    | Other Languages
 [Antithesis]          | USA, Virginia       | C/C++, Rust, TypeScript, JavaScript
 [Arista]              | USA                 | Haskell
 [Artificial]          | UK                  | Haskell
-[Cachix]              | Estonia             | Haskell, Elm
 [CircuitHub]          | UK                  | Haskell, Elm
 [CmdScale]            | Germany             | Go, Rust, TypeScript, Python, C++, C#
 [Cyberus Technology]  | Germany             | C++, Rust, Haskell
 [D. E. Shaw]          | USA                 |
-[Determinate Systems] | USA                 | Rust
 [Dfinity]             | Switzerland, Zürich | Haskell, Rust
 [Edgeless Systems]    | Germany             | Go
 [Feram]               | Germany             | Haskell, Elm, PureScript, Rust
@@ -47,9 +49,7 @@ Name (Link to Website)| HQ Location    | Other Languages
 [Matroid]             | USA, California     | Python, TypeScript, JavaScript
 [Mercury]             | USA, California     | Haskell
 [Mlabs]               | UK                  | Haskell, Rust
-[Monzo]               | UK, USA             | Python, Java 
-[Nix.How]             | USA                 |
-[Numtide]             | Switzerland         | Rust
+[Monzo]               | UK, USA             | Python, Java
 [Obsidian Systems]    | USA, New York       | Haskell
 [PDT Partners]        | USA, UK             |
 [Platonic Systems]    | USA                 | Haskell, Elm, PureScript
@@ -63,7 +63,6 @@ Name (Link to Website)| HQ Location    | Other Languages
 [Stack Builders]      | USA                 | Haskell, Ruby
 [Supabase]            | USA                 | Rust, TypeScript, Go
 [TextQL]              | USA                 | Haskell
-[Tweag]               | USA                 | Haskell, Rust
 [Typeable]            | USA                 | Haskell
 [Well-Typed]          | USA                 | Haskell
 
@@ -72,12 +71,10 @@ Name (Link to Website)| HQ Location    | Other Languages
 [Antithesis]: https://antithesis.com
 [Arista]: https://www.arista.com
 [Artificial]: https://artificial.io
-[Cachix]: https://cachix.org
 [CircuitHub]: https://circuithub.com
 [CmdScale]: https://cmdscale.com
 [Cyberus Technology]: https://cyberus-technology.de
 [D. E. Shaw]: https://www.deshaw.com
-[Determinate Systems]: https://determinate.systems
 [Dfinity]: https://dfinity.org
 [Edgeless Systems]: https://www.edgeless.systems
 [Feram]: https://www.feram.io
@@ -96,8 +93,6 @@ Name (Link to Website)| HQ Location    | Other Languages
 [Mercury]: https://mercury.com
 [Monzo]: https://monzo.com/
 [Mlabs]: https://mlabs.city
-[Nix.How]: https://nix.how
-[Numtide]: https://numtide.com
 [Obsidian Systems]: https://obsidian.systems
 [PDT Partners]: https://pdtpartners.com
 [Platonic Systems]: https://platonic.systems
@@ -111,6 +106,26 @@ Name (Link to Website)| HQ Location    | Other Languages
 [Stack Builders]: https://www.stackbuilders.com
 [Supabase]: https://supabase.com/
 [TextQL]: https://www.textql.com
-[Tweag]: https://www.tweag.io
 [Typeable]: https://typeable.io
 [Well-Typed]: https://well-typed.com
+
+
+## Consultants
+
+Name (Link to Website)| HQ Location        | Other Languages
+----------------------|--------------------|-----------------------------------
+[Cachix]              | Estonia            | Haskell, Elm
+[Determinate Systems] | USA                | Rust
+[Garnix]              | USA, San Francisco |
+[Immutable Solutions] | Sweden             | Haskell
+[Nix.How]             | USA                 |
+[Numtide]             | Switzerland        | Rust
+[Tweag]               | USA                 | Haskell, Rust
+
+[Cachix]: https://cachix.org
+[Determinate Systems]: https://determinate.systems
+[Garnix]: https://garnix.io
+[Immutable Solutions]: https://immutablesolutions.com
+[Nix.How]: https://nix.how
+[Numtide]: https://numtide.com
+[Tweag]: https://www.tweag.io
